@@ -1,0 +1,16 @@
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\bin\Debug\netstandard2.0\FirstApiLesson.deps.json
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\bin\Debug\netstandard2.0\FirstApiLesson.dll
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\bin\Debug\netstandard2.0\ref\FirstApiLesson.dll
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\bin\Debug\netstandard2.0\FirstApiLesson.pdb
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.csproj.AssemblyReference.cache
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\Views\TodoListPage.xaml.g.cs
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.AssemblyInfoInputs.cache
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.AssemblyInfo.cs
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.csproj.CoreCompileInputs.cache
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.dll
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\ref\FirstApiLesson.dll
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.pdb
+C:\Users\qwerty\source\repos\FirstApiLesson\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\Views\CreateOrEditTodoPage.xaml.g.cs
