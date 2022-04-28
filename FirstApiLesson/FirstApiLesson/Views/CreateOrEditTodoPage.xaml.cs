@@ -20,17 +20,23 @@ namespace FirstApiLesson.Views
             IsNewItem = isNew;
         }
 
-        private async void SaveButton_Clicked(object sender, EventArgs e)
+        private async void BtnSaveItem_Clicked(object sender, EventArgs e)
         {
             var todoItem = (TodoItemModel)BindingContext;
             await App.TodoManager.SaveItemAsync(todoItem, IsNewItem);
             await Navigation.PopAsync();
         }
-        private async void DeleteButton_Clicked(object sender, EventArgs e)
+
+        private async void BtnDeleteItem_Clicked(object sender, EventArgs e)
         {
             var todoItem = (TodoItemModel)BindingContext;
             await App.TodoManager.DeleteTodoAsync(todoItem);
             await Navigation.PopAsync();
         }
+        private async void BtnCancel_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+
     }
 }

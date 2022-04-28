@@ -3627,25 +3627,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qwerty\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Guest\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj",
+      "projectUniqueName": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj",
       "projectName": "FirstApiLesson",
-      "projectPath": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj",
-      "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson\\obj\\",
+      "projectPath": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj",
+      "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -3703,7 +3706,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

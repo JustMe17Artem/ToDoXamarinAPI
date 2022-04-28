@@ -21,25 +21,25 @@ namespace FirstApiLesson.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            TodoLV.ItemsSource = await App.TodoManager.GetTodoItemModels();
+            LVItems.ItemsSource = await App.TodoManager.GetTodoItemModels();
         }
 
-        private void TodoLV_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            Navigation.PushAsync(new CreateOrEditTodoPage()
-            {
-                BindingContext = e.SelectedItem as TodoItemModel
-            });
-        }
-
-        private async void ToolbarItem_Clicked(object sender, EventArgs e)
+        private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CreateOrEditTodoPage(true)
             {
-                BindingContext = new TodoItemModel() 
-                { 
-                    Id = Guid.NewGuid().ToString(),
+                BindingContext = new TodoItemModel
+                {
+                    Id = Guid.NewGuid().ToString()
                 }
+            });
+        }
+
+        private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new CreateOrEditTodoPage
+            {
+                BindingContext = e.SelectedItem as TodoItemModel
             });
         }
     }

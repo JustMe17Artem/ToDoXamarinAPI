@@ -13,7 +13,7 @@ namespace FirstApiLesson.Services
     {
         HttpClient client;
         JsonSerializerOptions serializerOptions;
-        public List<TodoItemModel> TodoItems { get; set; }
+        public List<TodoItemModel> TodoItems { get; private set; }
 
         public RestService()
         {

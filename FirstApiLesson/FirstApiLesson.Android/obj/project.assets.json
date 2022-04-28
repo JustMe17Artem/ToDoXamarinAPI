@@ -3542,26 +3542,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qwerty\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Guest\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.Android\\FirstApiLesson.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson.Android\\FirstApiLesson.Android.csproj",
       "projectName": "FirstApiLesson.Android",
-      "projectPath": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.Android\\FirstApiLesson.Android.csproj",
-      "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.Android\\obj\\",
+      "projectPath": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson.Android\\FirstApiLesson.Android.csproj",
+      "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid12.0"
@@ -3573,8 +3576,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj": {
-              "projectPath": "C:\\Users\\qwerty\\source\\repos\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj"
+            "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj": {
+              "projectPath": "C:\\Users\\Guest\\Desktop\\new\\FirstApiLesson\\FirstApiLesson\\FirstApiLesson.csproj"
             }
           }
         }
