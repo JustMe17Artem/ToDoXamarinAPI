@@ -16,15 +16,16 @@ namespace FirstApiLesson.Views
         public TodoListPage()
         {
             InitializeComponent();
+            
         }
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            LVItems.ItemsSource = await App.TodoManager.GetTodoItemModels();
+            TodoLV.ItemsSource = await App.TodoManager.GetTodoItemModels();
         }
 
-        private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
+        private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CreateOrEditTodoPage(true)
             {
@@ -35,7 +36,7 @@ namespace FirstApiLesson.Views
             });
         }
 
-        private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void TodoLV_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             await Navigation.PushAsync(new CreateOrEditTodoPage
             {

@@ -37,6 +37,5 @@ namespace FirstApiLesson.Views
         {
             await Navigation.PopAsync();
         }
-
     }
 }

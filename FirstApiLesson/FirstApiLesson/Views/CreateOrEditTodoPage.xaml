@@ -6,13 +6,13 @@
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Label Text="Name" />
-            <Entry Text="{Binding Path=Name}" 
+            <Entry Text="{Binding Name}" 
                Placeholder="Enter item" />
             <Label Text="Notes" />
-            <Entry Text="{Binding Path=Notes}"
+            <Entry Text="{Binding Notes}"
                Placeholder="Enter notes" />
             <Label Text="Done" />
-            <Switch IsToggled="{Binding Path=Done}" />
+            <Switch IsToggled="{Binding Done}" HorizontalOptions ="Start"/>
             <Button Text="Save" 
                     x:Name="BtnSaveItem"
                 Clicked="BtnSaveItem_Clicked" />

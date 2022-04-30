@@ -29,3 +29,4 @@ C:\Users\Guest\Desktop\new\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.
 C:\Users\Guest\Desktop\new\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.dll
 C:\Users\Guest\Desktop\new\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\ref\FirstApiLesson.dll
 C:\Users\Guest\Desktop\new\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.pdb
+C:\Users\Guest\Desktop\new\FirstApiLesson\FirstApiLesson\obj\Debug\netstandard2.0\FirstApiLesson.csproj.AssemblyReference.cache

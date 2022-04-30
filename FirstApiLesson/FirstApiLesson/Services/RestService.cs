@@ -13,7 +13,7 @@ namespace FirstApiLesson.Services
     {
         HttpClient client;
         JsonSerializerOptions serializerOptions;
-        public List<TodoItemModel> TodoItems { get; private set; }
+        public List<TodoItemModel> TodoItems { get; set; }
 
         public RestService()
         {
@@ -90,7 +90,7 @@ namespace FirstApiLesson.Services
                     Debug.WriteLine("@@@Success");
                 }
             }
-            catch (Exception ex )
+            catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
             }
